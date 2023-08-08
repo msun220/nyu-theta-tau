@@ -19,7 +19,7 @@ class Brother(models.Model):
     brother_number = models.IntegerField()
     major = models.CharField(max_length=200)
     eboard = models.BooleanField(default=False)
-    eboard_title = models.CharField(max_length=200, blank=True)
+    chair = models.CharField(max_length=200, blank=True, null=True)
     quote = models.TextField(blank=True)
     grad_year = models.IntegerField()
     description = models.TextField(blank=True)

@@ -16,7 +16,7 @@ class BrotherAdmin(admin.ModelAdmin):
         "name",
         "major",
         "eboard",
-        "eboard_title",
+        "chair",
         "quote",
         "grad_year",
         "description",
